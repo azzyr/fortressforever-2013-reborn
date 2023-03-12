@@ -2,7 +2,18 @@
 
 $Project
 {
-	$Folder "FF Shared"
+	$Folder "Source Files"
 	{
+		$Folder "FF Shared"
+		{
+			$File	"$SRCDIR\game\shared\ff\ff_gamerules_shared.cpp"
+			$File	"$SRCDIR\game\shared\ff\ff_gamerules_shared.h"
+		}
+	}
+	// folder structure has to match for remove to work correctly..
+	$Folder "HL2MP"
+	{
+		-$File	"$SRCDIR\game\shared\hl2mp\hl2mp_gamerules.cpp"
+		-$File	"$SRCDIR\game\shared\hl2mp\hl2mp_gamerules.h"
 	}
 }
