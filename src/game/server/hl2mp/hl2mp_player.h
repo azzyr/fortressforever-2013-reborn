@@ -20,7 +20,7 @@ class CHL2MP_Player;
 #include "hl2mp_playeranimstate.h"
 #endif // SDK2013CE
 #include "hl2mp_player_shared.h"
-#include "ff_gamerules_shared.h"
+#include "ff_sh_gamerules.h"
 #include "utldict.h"
 
 //=============================================================================
