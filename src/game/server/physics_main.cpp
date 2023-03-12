@@ -8,22 +8,7 @@
 
 #include "cbase.h"
 
-#ifdef SDK2013CE
 #include <typeinfo>
-
-#else
-
-#ifdef _WIN32
-#include "typeinfo.h"
-// BUGBUG: typeinfo stomps some of the warning settings (in yvals.h)
-#pragma warning(disable:4244)
-#elif POSIX
-#include <typeinfo>
-#else
-#error "need typeinfo defined"
-#endif
-#endif // SDK2013CE
-
 #include "player.h"
 #include "ai_basenpc.h"
 #include "gamerules.h"
