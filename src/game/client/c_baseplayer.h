@@ -541,7 +541,8 @@ private:
 	
 	float					m_flOldPlayerZ;
 	float					m_flOldPlayerViewOffsetZ;
-	
+	bool					m_bSmoothStair;
+
 	Vector	m_vecVehicleViewOrigin;		// Used to store the calculated view of the player while riding in a vehicle
 	QAngle	m_vecVehicleViewAngles;		// Vehicle angles
 	float	m_flVehicleViewFOV;
